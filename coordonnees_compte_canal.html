@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> coordonées</title>
+        <link rel="stylesheet" href="css/style.css" /> 
+        <link rel="stylesheet" href="fonts/fonts.css" />
+        <link rel="stylesheet" href="css/queries.css" />
+        <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+        <!--[if lt IE 10]> <script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+    </head>
+    <body>
+      <header id="header">
+        <div class="wrapper">
+            <a class="logo" title="CANALPLAY" href="/">CANALPLAY</a>
+        </div>
+      </header>
+      <section>
+        <div class="wrapper">
+            <div class="main">
+            <form class="form-gen" method="POST" action="#">
+                <nav class="progress-bar">
+                	<ul class="step1">
+                    	<li><span class="current">Coordonnées</span></li>
+                        <li><span>Paiement</span></li>
+                    </ul>
+                </nav>
+                <h2 class="h2-cufon title_blue">ESSAYEZ GRATUITEMENT LE 1ER MOIS<span style="font-family:arial;">* </span>SANS ENGAGEMENT</h2>
+                <div class="col_left bg_gray"><img src="images/step1-prix.3842.png" alt="ORDINATEUR, TABLETTE ET SMARTPHONE 7,99€/MOIS sans engagement ESSAI GRATUIT 1 MOIS*" /></div>
+                <div class="col_right">
+                	<h2 class="h2-cufon title_form">créez votre compte canalPLAY</h2>
+                    
+                        <ul class="forms">
+                            <li id="li-civilite" class="f-radios ">
+                                <span >
+                                    <input id="civilite_1" type="radio" value="1" name="civilite" tabindex="1">
+                                    <label for="civilite_1">M.</label>
+                                </span>
+                                <span >
+                                    <input id="civilite_2" type="radio" value="2" name="civilite" tabindex="2">
+                                    <label for="civilite_2">Mme</label>
+                                </span>
+                                <span >
+                                    <input id="civilite_3" type="radio" value="3" name="civilite" tabindex="3">
+                                    <label for="civilite_3">Mlle</label>
+                                </span>
+                                <span class="label_error">Veuillez choisir une option</span>
+                            </li>
+                            <li class="two_col  ">
+                                <input type="text"  placeholder="Prénom" maxlength="30" name="prenom" id="prenom" tabindex="4" >
+                                <input type="text"  placeholder="Nom" maxlength="30" name="nom" id="nom" tabindex="5" >
+                                <span class="nom_error">Saisissez votre Nom</span>
+                                <span class="prenom_error">Saisissez votre Prénom</span>
+                            </li>
+                            <li class="full_col "><input id="email" type="text" autocomplete="off" placeholder="Adresse E-mail" name="emailaff" tabindex="13"><span class="error">L’e-mail n’est pas valide/span></li>
+                            <li class="full_col "><input type="password" autocomplete="off"  placeholder="Mot de passe" name="mot-de-passe" id="mot-de-passe" tabindex="14" >
+                            	<span class="error">Votre mot de passe doit contenir au moins 4 caractères alphanumériques</span></li>
+                            <li class="full_col "><input type="password" autocomplete="off" placeholder="Confirmer mot de passe" name="confirm_mot-de-passe" id="confirm_mot-de-passe" tabindex="15" >
+                            	<span class="error">Votre mot de passe doit contenir au moins 4 caractères alphanumériques</span></li>
+                        </ul>
+                    	
+                </div>
+                
+                
+                <span class="link_tv">Si vous souhaitez vous abonner à CANALPLAY également sur TV, cliquez <a href="#">ici</a></span>
+                
+                <div class="group_offre">
+                	<div class="item bg_blue1 first">C’est sans engagement, et le  1er mois est offert</div>
+                    <div class="item bg_blue2">VOS PROGRAMMES EN illimité sur tous vos écrans</div>
+                    <div class="item bg_blue3">découvrez l’espace kids totalement sécurisé</div>
+                    <div class="item bg_blue4">Profitez de la recommandation personalisée</div>
+                    <div class="item bg_blue5">SANS être obligatoirement abonné à canal+ ou canalsat</div>
+                </div>
+                
+                <label class="infos_part" for="infos-part"><input type="checkbox" value="1" name="infos-part" id="infos-part" tabindex="16"> Je souhaite recevoir des informations des partenaires du Groupe CANAL+</label>
+                
+                <p class="mention_legal">En cliquant sur le bouton « Continuer », vous acceptez que vos données soient traitées à des fins de vérification, sollicitations commerciales sur l’abonnement envisagé ou de gestion.
+                Conformément à la loi du 06/01/78, vous disposez d’un droit d’accès, de rectification et d’opposition aux informations personnelles vous concernant, que vous pouvez exercer auprès de CANALPLAY, 95905
+                 Cergy Pontoise Cedex 9, en joignant un justificatif d’identité.</p>
+                
+                </form>
+           		<fieldset class="set-bts">
+                	<div id="msg_error" class="message none" >
+                		<div class="inner-message inner-message-red-alert">
+                    		<span>Votre adresse e-mail correspond à un compte CANAL, merci de saisir le mot de passe associé. <a href="#">Mot de passe oublié ?</a></span>
+                    	</div>
+                    </div>
+                    <ul class="fields">
+                    	<li><span class="input-bt input-secondary" style="display: none"><a class="omniture retour" href="#">Retour</a></span>
+                        	<span class="input-bt input-submit"><input type="submit" class="omniture" value="Continuer" name="submit" id="submit" tabindex="19"></span>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="wrapper">
+           <a href="#" class="link_white_small">* Modalités de l'offre</a>
+           <span class="copyright">&copy; CANAL+ 2014</span>
+        </div>
+      </footer>
+    </body>
+</html>

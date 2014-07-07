@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'canaldemiromain';
+    src: url('canaldemiromain-webfont.eot');
+    src: url('canaldemiromain-webfont.eot?#iefix') format('embedded-opentype'),
+         url('canaldemiromain-webfont.woff') format('woff'),
+         url('canaldemiromain-webfont.ttf') format('truetype'),
+         url('canaldemiromain-webfont.svg#canaldemiromainregular') format('svg');
+    font-weight: normal; font-style: normal;
+}
+
+@font-face {
+    font-family: 'canallightromain';
+    src: url('canallightromainr7-webfont.eot');
+    src: url('canallightromainr7-webfont.eot?#iefix') format('embedded-opentype'),
+         url('canallightromainr7-webfont.woff') format('woff'),
+         url('canallightromainr7-webfont.ttf') format('truetype'),
+         url('canallightromainr7-webfont.svg#canal2012regular') format('svg');
+    font-weight: normal; font-style: normal;
+}
+
+/* remove all weight style */
+.h2-cufon, .lb-title-cufon, .h1-cufon, .vop h3, .h1-cufon strong { 
+    font-weight:normal !important;
+}
+
+/* bold */
+.h2-cufon, 
+.vop h3,
+.lb-title-cufon, 
+.h1-cufon strong { 
+    font-family: 'canaldemiromain';
+}
+
+/* light */
+.h1-cufon, 
+#features a.h2-cufon,
+.slider-feature-mea #features .h2-cufon,
+#top-content + #content .wrapper #main #left .title-img .h2-cufon,
+.inner-message .h2-cufon,
+#top-main.mea .mod#modIntro header .h2-cufon { 
+    font-family: 'canallightromain';
+}    
