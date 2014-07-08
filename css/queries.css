@@ -24,8 +24,6 @@ section .wrapper .main{
 	padding-bottom: 30px;
 	width: 100%;
 	}
-	
-
 
 .progress-bar{
 		display: none;
@@ -99,6 +97,9 @@ div.styled.f_right{
 	display: block;
 	padding-bottom: 20px;
 	}
+.col_left2 .title_form{
+	width: 91%
+}
 
 .b_bot{
 	border: none;
@@ -128,6 +129,37 @@ ul.offres li span{
 #footer .copyright{
 	font-size: 14px;
 }
+/*************************** PAGE Coordonnees ******************************/	
+
+#coordonnees .full_col input{
+	width:100%;
+}
+
+#coordonnees .link_tv{
+	padding: 0 62px;
+}
+
+#coordonnees .infos_part{
+	font-size: 14px;
+}
+
+/*************************** Refonte des popins ******************************/	
+
+#pop_in_adulte_1 #lb{
+		width:0;
+		min-width:0;
+		left:inherit;
+	}
+	#pop_in_adulte_1 #lb.lb-white{
+		width:57%;
+		top:-5%;
+		margin-left: 14%
+	}
+	#pop_in_adulte_1 header{
+		width: inherit;
+		box-sizing: border-box;
+		padding: 12px 15px 0;
+	}
 /*************************** PAGE Merci ******************************/	
 .input-bt.input-submit.f_left.m_top{
 	margin-bottom: 40px;
@@ -280,6 +312,10 @@ div.styled.f_right{
 .ck_bx_label_paiement{
 	font-size: 14px;
 }
+.label_error{
+clear: both;
+margin-bottom: -9px;
+}
 
 ul.offres li span{
 	width: 100%;
@@ -334,7 +370,42 @@ ul.forms_popin.adulte2 .last_one{
 	
 ul.forms_popin.adulte2 li.last {
 	float: right;
-	}	
+	}
+
+/*************************** PAGE Coordonnees ******************************/	
+
+
+	#coordonnees .two_col input{
+		width:49%;
+	}
+
+	#coordonnees .full_col input{
+		width:100%;
+	}
+
+	#coordonnees .link_tv{
+		padding:0;
+	}
+
+	#coordonnees .infos_part{
+		font-size: 14px;
+	}
 	
+/******************* Refonte des popins *************************************/
+	#pop_in_adulte_1 #lb{
+		width:0;
+		min-width:0;
+		left:inherit;
+	}
+	#pop_in_adulte_1 #lb.lb-white{
+		width:90%;
+		top:2%;
+		margin-left: 0
+	}
+	#pop_in_adulte_1 header{
+		width: inherit;
+		box-sizing: border-box;
+		padding: 12px 15px 0;
+	}
 }
 

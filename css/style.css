@@ -1018,5 +1018,16 @@ ul.forms_popin li.disable input{
 	background: #f3f3f3;
 	
 	}
-	
 
+#coordonnees .two_col input{
+	width:47%;
+}
+/******************* Refonte des popins *************************************/
+#pop_in_adulte_1 #lb{
+	width:0;
+	min-width:0;
+}
+#pop_in_adulte_1 #lb.lb-white{
+	width:59%;
+	top:20%;
+}
