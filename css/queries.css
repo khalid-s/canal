@@ -338,6 +338,14 @@ ul.offres li span{
 .col_right fieldset .title2{
 	font-size: 14px;
 }
+.col_left2 ul li.small_col {
+	display: block;
+	width: 90%;
+	padding-top: 35px;
+}
+.col_left2 ul li.code_error {
+	padding-top: 0;
+}
 /*************************** PAGE Merci ******************************/	
 .input-bt.input-submit.f_left.m_top{
 	margin-bottom: 40px;
@@ -404,13 +412,9 @@ ul.forms_popin.adulte2 li.last {
 		padding: 0 0 20px 0;
 		margin-top: -9px;
 	}
-	#coordonnees .label_error{
-		clear: both;
-		display: none;
-		margin-top: -12px;
-		margin-left: 3px;
-	}
-	
+	li.civilite_error .label_error {
+		display: block;
+		}
 /******************* Refonte des popins *************************************/
 	#lb{
 		width:0;

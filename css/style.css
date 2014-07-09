@@ -34,6 +34,7 @@ section .wrapper .main{
 	padding: 25px 0 50px 0;
 	display: inline-block;
 	width: 970px;
+	background: #fff;
 	}
 
 #header{
