@@ -5,7 +5,7 @@
 	display: none;
 	}
 
-@media all and (min-width: 481px) and (max-width: 1101px){
+@media all and (min-width: 480px) and (max-width: 1101px){
 
 	ul.forms_popin li.first {
 		padding-right: 30px;
@@ -37,9 +37,12 @@
 		bottom: -4px;
 		right: -23px;
 	}
+	ul.forms_popin li {
+		max-width: 52%;
+	}
 }
 /******************************************************** RESOLUTION 480  ************************************************************************/
-@media all and (min-width: 320px) and (max-width: 481px){
+@media all and (min-width: 320px) and (max-width: 480px){
 	
 /*************************** PAGE coordonees ******************************/
 section, header, footer{
@@ -194,8 +197,9 @@ header{
 		padding: 12px 15px 0;
 	}
 #popin_adulte_2 #lb {
-	width: 296px;
+	width: 90%;
 	min-width: inherit;
+	left:0;
 	}
 
 ul.forms_popin.adulte2 li.disable input#date-de-naissance {
@@ -205,11 +209,12 @@ ul.forms_popin.adulte2 li.disable input#date-de-naissance {
 ul.forms_popin.adulte2 li{
 	padding-right: 0;
 	padding-bottom: 12px;
-	 width: 112px;
+	 width: 143px;
 	}
 	
 ul.forms_popin li.first{
 	padding-right: 50px;
+	width: 100%;
 	}
 
 	ul.forms_popin.adulte2 li input { 
@@ -254,6 +259,10 @@ ul.forms_popin.adulte2 li.last {
 		display: block;
 		margin: 10px 0;
 		}
+
+	ul.forms_popin li{
+		max-width: 60%;
+	}
 }
 
 
@@ -435,6 +444,10 @@ ul.forms_popin.adulte2 .last_one{
 ul.forms_popin.adulte2 li.last {
 	float: right;
 	}
+/*	ul.forms_popin li{
+		width: 46%;
+
+	}*/
 
 /*************************** PAGE Coordonnees ******************************/	
 
@@ -495,5 +508,8 @@ ul.forms_popin.adulte2 li.last {
 	#lb.lb-white {
 		position: relative;
 		width: 100%;
+	}
+	ul.forms_popin li{
+		max-width: 90%;
 	}
 }

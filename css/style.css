@@ -963,6 +963,7 @@ ul.forms_popin li{
 	display: block;
 	float: left;
 	padding-right: 8px;
+	max-width: 30%
 	}	
 ul.forms_popin li input{
 	border-radius: 3px;
@@ -992,7 +993,7 @@ ul.forms_popin li.error input{
 	}
 	
 .input-bt.input-submit-blk.space{
-    margin-top: -2px;
+    margin-top: 2px;
 	}
 		
 .input-bt.input-submit-blk {
