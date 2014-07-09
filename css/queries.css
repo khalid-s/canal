@@ -4,6 +4,40 @@
 .col_right.show_device{
 	display: none;
 	}
+
+@media all and (min-width: 481px) and (max-width: 1101px){
+
+	ul.forms_popin li.first {
+		padding-right: 30px;
+		width: 100%;
+	}
+	ul.forms li {
+		width: 77%;
+	}
+	ul.forms li.full_col input {
+		width: 100%;
+	}
+	#lb.lb-white {
+		position: relative;
+		top: -2%;
+		width: 67%;
+	}
+
+	.lb-body {
+		max-height: 152px;
+	}
+	#lb.lb-white .lb-body {
+		padding: 15px 15px 25px 15px;
+		}
+	.height20{
+		height: 10px;
+	}
+	.input-bt-adulte {
+		position: relative;
+		bottom: -4px;
+		right: -23px;
+	}
+}
 /******************************************************** RESOLUTION 480  ************************************************************************/
 @media all and (min-width: 320px) and (max-width: 481px){
 	
@@ -154,6 +188,11 @@ ul.offres li span{
 	margin-left: -154px;}
 
 /********* POPIN ************************/
+header{
+		width: inherit;
+		box-sizing: border-box;
+		padding: 12px 15px 0;
+	}
 #popin_adulte_2 #lb {
 	width: 296px;
 	min-width: inherit;
@@ -187,9 +226,11 @@ ul.forms_popin.adulte2 li.last {
 	}
 
 	#lb.lb-white {
-		position: fixed;
+		position: relative;
 		top: -2%;
-		width: 67%;
+		width: 90%;
+		left: 0;
+		margin-left: 5%;
 	}
 
 	.lb-body {
@@ -206,11 +247,18 @@ ul.forms_popin.adulte2 li.last {
 		bottom: -4px;
 		right: -23px;
 	}
+	li.civilite_error .label_error {
+		display: block;
+		}
+	ul.forms_popin li.error .error {
+		display: block;
+		margin: 10px 0;
+		}
 }
 
 
 /********************************************************    RESOLUTION 320  *****************************************************/
-@media all and (max-width: 320px){
+@media all and (min-width: 240px) and (max-width: 320px){
 section, header, footer{
 	width: 100%;
 	}
@@ -350,16 +398,12 @@ ul.offres li span{
 .input-bt.input-submit.f_left.m_top{
 	margin-bottom: 40px;
 	}
-#lb.lb-white{
-	width: 90%;
-	margin-left: 0%;
-}
 
 /********* POPIN ************************/
 #lb, #lb.lb-white {
 	width: 296px;
 	min-width: inherit;
-	width: 90%;
+	width: 100%;
 	margin-left: 0%;
 	top: 22%;
 	}
@@ -416,16 +460,20 @@ ul.forms_popin.adulte2 li.last {
 		display: block;
 		}
 /******************* Refonte des popins *************************************/
-	#lb{
+	ul.forms_popin li.error .error {
+		display: block;
+		margin: 10px 0;
+		}
+#lb{
 		width:0;
 		min-width:0;
 		left:inherit;
 	}
 	#popin_adulte_2 #lb {
-		width:90%;
-		top:22%;
+		width: 100%;
+		top: 22%;
 		margin-left: 0;
-		left: 5%
+		left: 0%;
 	}
 	header{
 		width: inherit;
@@ -443,3 +491,9 @@ ul.forms_popin.adulte2 li.last {
 	}
 }
 
+@media all and (max-width: 240px){
+	#lb.lb-white {
+		position: relative;
+		width: 100%;
+	}
+}
