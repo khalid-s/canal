@@ -11,6 +11,7 @@
         <!--[if lt IE 10]> <script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
     </head>
     <body>
+      <div id="popin_adulte_2">
       <header id="header">
         <div class="wrapper">
             <a class="logo" title="CANALPLAY" href="/">CANALPLAY</a>
@@ -22,21 +23,21 @@
             
             <!-------------------- POPIN ----------------------------------------------------------------------- s-->
             <!--overlay -->
-            <div id="lb-mask" style="display: block; opacity: 0.85; height: 956px;"></div>
+            <div id="lb-mask"></div>
             
-            <div id="lb" style="display: block; top: 374px;" class="lb-white">
-            	<div class="lb-inner">
-                	<a href="#" class="lb-close" style="display: inline;">Close</a>
-                    <div id="lb-content" class="lb-content" style="">
-                    	<header>
-  							<p class="lb-title-cufon">rubrique adulte</p>
+            <div id="lb" class="lb-white">
+                <div class="lb-inner">
+                    <a href="#" class="lb-close" style="display: inline;">Close</a>
+                    <div id="lb-content" class="lb-content">
+                        <header>
+                            <p class="lb-title-cufon">rubrique adulte</p>
 						</header>
                         <div class="lb-body">
                         	<form class="form-popin" method="POST" action="#">
                             	<p class="label">Pour pouvoir activer la rubrique Adulte <span class="picto_adulte"></span>, veuillez renseigner votre code parental :</p>
                             	<ul class="forms_popin adulte2">
                                     <li class="first disable">
-                                        <input id="date-de-naissance" type="text"  maxlength="8" disabled placeholder="15/05/1989" name="date-de-naissance"  >
+                                        <input id="date-de-naissance" type="text"  maxlength="8" disabled value="15/05/1989" name="date-de-naissance"  >
                                     </li>
                                     <li class="">
                                         <input id="code-parental" type="text"  maxlength="8" placeholder="Code parental" name="code-parental"  >
@@ -52,6 +53,7 @@
                                  </ul>
                             </form>
                         </div>
+                        <div class="height20"></div>
 					</div>
                 </div>
             </div>
@@ -198,7 +200,7 @@
                     	</div>
                     </div>
                     <ul class="fields">
-                    	<li><span class="input-bt input-secondary" ><a class="omniture retour" href="#">Retour</a></span>
+                    	<li><span class="input-bt input-bt-adulte input-secondary" ><a class="omniture retour" href="#">Retour</a></span>
                         	<span class="input-bt input-submit"><input type="submit" class="omniture" value="Continuer" name="submit" id="submit" tabindex="19"></span>
                         </li>
                     </ul>
@@ -212,5 +214,6 @@
            <span class="copyright">&copy; CANAL+ 2014</span>
         </div>
       </footer>
+      </div>
     </body>
 </html>

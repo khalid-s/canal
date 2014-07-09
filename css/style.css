@@ -27,7 +27,9 @@ body section{
     position: relative;
     width: 970px;
 }
-
+.clear{
+	clear: both;
+}
 section .wrapper .main{
 	padding: 25px 0 50px 0;
 	display: inline-block;
@@ -892,12 +894,12 @@ p {
 
 
 #lb .lb-body {
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 15px 20px;
 }
 
 #lb.lb-white .lb-body {
-    padding: 15px 15px 60px 15px ;
+    padding: 15px 15px 40px 15px ;
 }
 
 .lb-white .lb-body {
@@ -969,7 +971,7 @@ ul.forms_popin li input{
 	display: block;
 	}
 ul.forms_popin li.first{
-	padding-right: 50px;
+	padding-right: 30px;
 	}
 	
 ul.forms_popin li input#date-de-naissance{
@@ -1023,11 +1025,25 @@ ul.forms_popin li.disable input{
 	width:47%;
 }
 /******************* Refonte des popins *************************************/
-#pop_in_adulte_1 #lb{
+#lb{
 	width:0;
 	min-width:0;
 }
-#pop_in_adulte_1 #lb.lb-white{
-	width:59%;
-	top:20%;
+#lb.lb-white{
+	position: fixed;
+	/*width:59%;*/
+	top:15%;
+}
+.lb-body{
+	max-height: 375px;
+	overflow: auto;
+}
+.height20{
+	height: 20px;
+	width: 100%
+}
+
+#popin_adulte_2 #lb{
+	left: 48%;
+	width: 52%
 }
