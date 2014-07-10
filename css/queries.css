@@ -5,7 +5,29 @@
 	display: none;
 	}
 
-@media all and (min-width: 480px) and (max-width: 1101px){
+
+@media all and (min-width: 768px) and (max-width: 1100px){
+	body{
+		max-width: 768px;
+		width: 768px;
+		/*overflow: hidden;*/
+	}
+	.main{
+		padding-right: 1.5% !important;
+	}
+
+	.wrapper{
+		padding-right: 1.5%;
+		padding-left: 1.5%;
+	}
+
+	.progress-bar ul{
+		width: 725px;
+		overflow: hidden;
+	}
+}
+
+@media all and (min-width: 480px) and (max-width: 768px){
 
 	ul.forms_popin li.first {
 		padding-right: 30px;
