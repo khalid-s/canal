@@ -21,10 +21,10 @@
 		padding-left: 1.5%;
 	}
 
-	.progress-bar ul{
+	/*.progress-bar ul{
 		width: 725px;
 		overflow: hidden;
-	}
+	}*/
 }
 
 @media all and (min-width: 480px) and (max-width: 768px){

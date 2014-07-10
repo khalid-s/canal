@@ -134,8 +134,8 @@ ul.step2 {
 	}
 
 .col_left{
-	width: 454px;
-	padding: 30px 0;
+	/*width: 454px;*/
+	padding: 30px 108px;
 	float: left;
 	text-align: center;
 	}
