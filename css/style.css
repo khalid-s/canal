@@ -359,7 +359,7 @@ span.input-bt a.retour {
     position: relative;
 }
 .inner-message-red-alert, .inner-message-grey-alert {
-    background: url("../images/sprite.png") no-repeat 11px -346px;
+    background: url("../images/sprite.png") no-repeat 11px -339px;
     padding: 11px 9px 10px;
 }
 
