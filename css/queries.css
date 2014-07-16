@@ -15,7 +15,14 @@
 		padding-left: 1.5%;
 		box-sizing: border-box;
 	}
-
+	
+	.group_offre div{
+		word-wrap:break-word;
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+	}
 	.progress-bar ul{
 		margin-left: -5px;
 	}
