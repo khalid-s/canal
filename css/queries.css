@@ -6,7 +6,7 @@
 	}
 
 
-@media all and (min-width: 767px) and (max-width: 1000px){
+@media screen and (min-width: 767px) and (max-width: 1000px){
 	body{
 		box-sizing: border-box;
 	}
@@ -147,7 +147,7 @@
 }
 
 /******************************************************** RESOLUTION 480  ************************************************************************/
-@media all and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 319px) and (max-width: 767px){
 	
 /*************************** PAGE coordonees ******************************/
 section, header, footer{
@@ -278,7 +278,7 @@ ul.offres li span{
 }
 
 #coordonnees .link_tv{
-	padding: 0 62px;
+	padding: 0 8%;
 }
 
 #coordonnees .infos_part{
@@ -372,7 +372,7 @@ ul.forms_popin.adulte2 li.last {
 
 
 /********************************************************    RESOLUTION 320  *****************************************************/
-@media all and (min-width: 240px) and (max-width: 320px){
+@media screen and (min-width: 240px) and (max-width: 319px){
 section, header, footer{
 	width: 100%;
 	}
@@ -609,7 +609,7 @@ ul.forms_popin.adulte2 li.last {
 	}
 }
 
-@media all and (max-width: 240px){
+@media screen and (max-width: 240px){
 	#lb.lb-white {
 		position: relative;
 		width: 100%;
