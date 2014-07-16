@@ -15,6 +15,12 @@
 		padding-left: 1.5%;
 		box-sizing: border-box;
 	}
+
+	.coordonnees{
+		display: block !important;
+		width: 768px !important;
+		margin: 0 auto;
+	}
 	
 	.group_offre div{
 		word-wrap:break-word;
