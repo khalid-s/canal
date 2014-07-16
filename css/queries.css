@@ -8,25 +8,17 @@
 
 @media all and (min-width: 767px) and (max-width: 1000px){
 	body{
-		/*max-width: 768px;*/
-		/*overflow: hidden;*/
 		box-sizing: border-box;
 	}
-/*	.main{
-		padding-right: 1.5% !important;
-		box-sizing: border-box;
-	}
-*/
 	.wrapper{
 		padding-right: 1.5%;
 		padding-left: 1.5%;
 		box-sizing: border-box;
 	}
 
-	/*.progress-bar ul{
-		width: 725px;
-		overflow: hidden;
-	}*/
+	.progress-bar ul{
+		margin-left: -5px;
+	}
 
 	.col_left{
 		padding:30px 10px;
