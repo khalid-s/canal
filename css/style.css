@@ -560,7 +560,7 @@ li.code_error input{
 		.ie7 div.styled {border:none;}
 
 	div.styled select {	
-		width:115%;
+		width:140%;
 		background-color:transparent;
 		background-image:none;
 		-webkit-appearance: none;
@@ -835,17 +835,17 @@ p {
     background: none repeat scroll 0 0 #1a1a1a;
     border-radius: 3px;
     height: auto;
-    left: 50%;
+    /*left: 50%;*/
     margin: 0 0 0 -340px;
     min-width: 680px;
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     z-index: 14999;
 }
 
 #lb.lb-white {
     background: none repeat scroll 0 0 white;
-    margin: 0 0 0 -290px;
+    margin: 0 auto;
     width: 580px;
 }
 
@@ -902,6 +902,12 @@ p {
 #lb .lb-body {
     /*overflow: hidden;*/
     padding: 15px 20px;
+    overflow-x: hidden;
+    -moz-word-wrap: break-word;
+    -o-word-wrap: break-word;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    
 }
 
 #lb.lb-white .lb-body {
@@ -968,7 +974,7 @@ ul.forms_popin li{
 	display: block;
 	float: left;
 	padding-right: 8px;
-	max-width: 30%
+	/*max-width: 30%*/
 	}	
 ul.forms_popin li input{
 	border-radius: 3px;
@@ -979,6 +985,7 @@ ul.forms_popin li input{
 	}
 ul.forms_popin li.first{
 	padding-right: 30px;
+	width: 100px !important;
 	}
 	
 ul.forms_popin li input#date-de-naissance{
@@ -986,7 +993,7 @@ ul.forms_popin li input#date-de-naissance{
 	}
 	
 ul.forms_popin li.disable input#date-de-naissance{
-	width: 115px;
+	width: 100px;
 	}
 
 ul.forms_popin li.error .error{
@@ -1037,9 +1044,8 @@ ul.forms_popin li.disable input{
 	min-width:0;
 }
 #lb.lb-white{
-	position: fixed;
-	/*width:59%;*/
-	top:15%;
+	position: relative;
+	top:0;
 }
 .lb-body{
 	max-height: 375px;
@@ -1051,6 +1057,7 @@ ul.forms_popin li.disable input{
 }
 
 #popin_adulte_2 #lb{
-	left: 48%;
-	width: 52%
+	/*left: 47%;*/
+	width: 68%;
+	max-width: 640px;
 }
