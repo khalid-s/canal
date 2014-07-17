@@ -303,15 +303,16 @@ ul.offres li span{
 }
 /*************************** PAGE Coordonnees ******************************/	
 
-#coordonnees .full_col input{
+.coordonnees .full_col input{
 	width:100%;
 }
 
-#coordonnees .link_tv{
+.coordonnees .link_tv{
 	padding: 0 8%;
+	margin-bottom: 0;
 }
 
-#coordonnees .infos_part{
+.coordonnees .infos_part{
 	font-size: 14px;
 }
 
@@ -424,13 +425,15 @@ section, header, footer{
 section .wrapper .main{
 	box-sizing: border-box;
 	overflow: hidden;
+	/*padding: 0;*/
 	padding-bottom: 30px;
 	width: 100%;
 	}
 
-.coordonnees{
+.coordonnees, #paiement{
 	margin-top: -25px;
 }
+
 
 .coordonnees .infos_part span{
    float: right; 
