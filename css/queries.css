@@ -16,6 +16,26 @@
 		box-sizing: border-box;
 	}
 
+	#merci{
+		width: 90%;
+	}
+
+	#merci .col_left2{
+		width: 50%;
+	}
+
+	#merci ul.step1 li *, ul.step2 li *{
+		width: 400px;
+	}
+	
+	#paiement, #merci{
+		max-width: 768px;
+		margin: 0 auto;
+	}
+	#paiement .col_right{
+		width: 36% !important;
+	}
+
 	.coordonnees{
 		display: block !important;
 		width: 768px !important;
@@ -36,10 +56,10 @@
 	.progress-bar ul{
 		margin-left: -5px;
 	}
-
+/*
 	#footer .wrapper, #header .wrapper{
 		max-width: 768px !important;
-	}
+	}*/
 
 	.col_left{
 		padding:30px 10px;
@@ -62,14 +82,14 @@
 	.main, .wrapper, section{
 		max-width: 100%;
 		/*max-width: 768px;*/
-		overflow: hidden;
+		overflow-x: hidden;
 	}
 	ul.forms li {
 		width: 91%;
 	}
 
 	ul.step1 {
-		background-position: -226px 36px;
+		background-position: -226px 703px;
 		max-width: 735px;
 	}
 	ul.step1 li span.current{
@@ -80,14 +100,14 @@
 	}
 	
 	ul.step2{
-		background-position: 742px 539px;
+		background-position: 744px 739px;
 		max-width: 735px;
 	}
 	ul.step2 li span.current{
 		max-width: 417px;
 	}
 	ul.step2 li{
-		max-width: 353px !important;
+		max-width: 282px !important;
 	}
 
 
@@ -108,9 +128,12 @@
 	.csFormRight{
 		width: 40%;
 	}
+	#paiement .csFormRight{
+		width: 100%;
+	}
 
 	#paiement .col_right, #merci .col_right{
-		width: 36%;
+		width: 44%;
 		/*margin-left: 14px;*/
 	}
 
@@ -166,6 +189,13 @@ section .wrapper .main{
 	padding-bottom: 30px;
 	width: 100%;
 	}
+
+#paiement .col_left2, #merci .col_left2{
+	width: 100% !important;
+	}
+#paiement .col_left2 ul.forms{
+	padding-bottom: 0 !important;
+}
 
 .progress-bar{
 		display: none;
@@ -370,7 +400,15 @@ ul.forms_popin.adulte2 li.last {
 	}
 }
 
-
+/********************************************************    Correction d'un bug sur coordonnees  *****************************************************/
+@media screen and (min-width: 319px) and (max-width: 351px){
+	.coordonnees .infos_part span{
+	   float: right; 
+	   position: relative; 
+	   top: -21px; 
+	   left: 19px;
+	}
+}
 /********************************************************    RESOLUTION 320  *****************************************************/
 @media screen and (min-width: 240px) and (max-width: 319px){
 section, header, footer{
@@ -389,7 +427,22 @@ section .wrapper .main{
 	padding-bottom: 30px;
 	width: 100%;
 	}
+
+.coordonnees{
+	margin-top: -25px;
+}
+
+.coordonnees .infos_part span{
+   float: right; 
+   position: relative; 
+   top: -21px; 
+   left: 19px;
+}
 	
+
+#paiement .col_left2, #merci .col_left2{
+	width: 100% !important;
+	}
 
 .progress-bar{
 		display: none;
