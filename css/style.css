@@ -448,17 +448,19 @@ li.nom_error .nom_error{
 	display: block;
 	color: #d70022; 
 	float: right;
-	width: 48%;
+	width: 47%;
 	}
 	
 
 .info_secure{
 	background: url(../images/sprite.png)  213px -106px no-repeat; 
-	padding: 2px 26px 0 0;
+	/*padding: 2px 26px 0 0;*/
+	padding-top: 2px;
 	color: #666;
 	float: right;
 	font: bold 12px Arial, Helvetica, sans-serif;
 	text-transform: none;
+	width: 230px;
 	}
 	
 .b_bot{
@@ -994,7 +996,7 @@ ul.forms_popin li.first{
 	}
 	
 ul.forms_popin li input#date-de-naissance{
-	width: 115px;
+	min-width: 80px;
 	}
 	
 ul.forms_popin li.disable input#date-de-naissance{
@@ -1026,6 +1028,7 @@ ul.forms_popin li.error input{
 	
 ul.forms_popin li.last{
 	padding-right:0;
+	margin-right: 0;
 	}
 
 .form-popin p.label{
@@ -1063,6 +1066,7 @@ ul.forms_popin li.disable input{
 
 #popin_adulte_2 #lb{
 	/*left: 47%;*/
-	width: 68%;
+	/*width: 68%;*/
 	max-width: 640px;
+	min-width: 600px;
 }

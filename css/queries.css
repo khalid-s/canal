@@ -157,7 +157,7 @@
 	#lb.lb-white{
 		position: relative;
 		top: -25px;
-		min-width: 604px;
+		/*min-width: 604px;*/
 	}
 
 
@@ -170,7 +170,13 @@
 	}
 }
 
-/******************************************************** RESOLUTION 480  ************************************************************************/
+/******************************************************** correction popin btn ok  ************************************************************************/
+@media screen and (min-width: 560px) and (max-width: 767px){
+	ul.forms_popin li.last{
+		float:left !important;
+	}
+}
+	/******************************************************** RESOLUTION 480  ************************************************************************/
 @media screen and (min-width: 319px) and (max-width: 767px){
 	
 /*************************** PAGE coordonees ******************************/
@@ -189,6 +195,11 @@ section .wrapper .main{
 	padding: 0;
 	padding-bottom: 30px;
 	width: 100%;
+	}
+
+	#paiement, #merci{
+		max-width: 500px;
+		margin: 0 auto;
 	}
 
 #paiement .col_left2, #merci .col_left2{
@@ -249,18 +260,16 @@ ul.offres li span.offre-title {
 	line-height: 22px;
 	}
 ul.forms li.full_col input{
-	width: 91%
+	/*width: 91%*/
 }
 
 div.styled{
 	float:left !important;
-	width: 41%;
-}
-.date_error div.styled{
-	width: 40.3%;
+	width: 45%;
 }
 div.styled.f_right{
-	margin-left: 19px;
+	/*margin-left: 19px;*/
+	float: right !important;
 }
 .col_right.hide_device{
 	display: none;
@@ -281,6 +290,8 @@ div.styled.f_right{
 .info_secure{
 	margin-top: 7px;
 	margin-bottom: 20px;
+	display: inline-block;
+	width:230px;
 	}
 .promo_reduction{
 	font-size: 14px;
@@ -317,10 +328,10 @@ ul.offres li span{
 	font-size: 14px;
 }
 .coordonnees ul.forms li.two_col input#nom{
-	float:none;
+	/*float:none;*/
 }
 .coordonnees ul.forms li.two_col input{
-	width:45% !important;
+	/*width:45% !important;*/
 }
 
 /*************************** Refonte des popins ******************************/	
@@ -468,6 +479,13 @@ ul.forms_popin li.last {
 	   position: relative; 
 	   top: -21px; 
 	   left: 19px;
+	}
+}
+
+/********************************************************    Correction d'un bug sur coordonnees  *****************************************************/
+@media screen and (min-width: 319px) and (max-width: 480px){
+	ul.forms li.full_col input{
+		/*width:95%;*/
 	}
 }
 /********************************************************    RESOLUTION 320  *****************************************************/
