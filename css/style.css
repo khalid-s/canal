@@ -54,6 +54,9 @@ section .wrapper .main{
 	background:#1a1a1a;
 	padding: 15px 0;
 	}
+#merci .progress-bar{
+	display: none;
+}
 
 .link_white_small{
 	color: #FFF;
@@ -973,8 +976,8 @@ ul.forms_popin li.two{
 ul.forms_popin li{
 	display: block;
 	float: left;
-	padding-right: 8px;
-	/*max-width: 30%*/
+	max-width: 30%;
+	margin-right: 1%;
 	}	
 ul.forms_popin li input{
 	border-radius: 3px;
@@ -982,10 +985,12 @@ ul.forms_popin li input{
 	color: #666666;
 	padding: 5px 10px;
 	display: block;
+	max-width:80%
 	}
 ul.forms_popin li.first{
 	padding-right: 30px;
 	width: 100px !important;
+	margin-right: 0;
 	}
 	
 ul.forms_popin li input#date-de-naissance{

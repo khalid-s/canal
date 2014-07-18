@@ -138,7 +138,7 @@
 	}
 
 	.col_right .offre-title{
-		display: none !important;
+		/*display: none !important;*/
 	}
 
 	#paiement ul.offres li span div, #merci ul.offres li span div{
@@ -152,22 +152,21 @@
 		width: 60%
 	}
 
+	
 
-
-
-	#popin_adulte_2 #lb {
-		/*left: 45%;*/
-		/*min-width: 70%;*/
-		
-	}
 	#lb.lb-white{
 		position: relative;
 		top: -25px;
 		min-width: 604px;
 	}
 
-	ul.forms_popin li.error{
-		/*max-width: 100%*/
+
+	ul.forms_popin li input{
+		max-width: 80%	;
+	}
+
+	ul.forms_popin li{
+		max-width: 33%;
 	}
 }
 
@@ -317,6 +316,12 @@ ul.offres li span{
 .coordonnees .infos_part{
 	font-size: 14px;
 }
+.coordonnees ul.forms li.two_col input#nom{
+	float:none;
+}
+.coordonnees ul.forms li.two_col input{
+	width:45% !important;
+}
 
 /*************************** Refonte des popins ******************************/	
 
@@ -340,11 +345,11 @@ header{
 	left:0;
 	}
 
-ul.forms_popin.adulte2 li.disable input#date-de-naissance {
+ul.forms_popin li.disable input#date-de-naissance {
     width: 106px;
 }
 
-ul.forms_popin.adulte2 li{
+ul.forms_popin li{
 	padding-right: 0;
 	padding-bottom: 12px;
 	 /*width: 100%;*/
@@ -356,16 +361,16 @@ ul.forms_popin li.first{
 	min-width: 480px;
 	}
 
-	ul.forms_popin.adulte2 li input { 
+	ul.forms_popin li input { 
 	/*width: 88px;*/
 	}   
 	
-ul.forms_popin.adulte2 .last_one{
+ul.forms_popin .last_one{
 	/*float: right;*/
     /*width: 126px;*/
 	}
 	
-ul.forms_popin.adulte2 li.last {
+ul.forms_popin li.last {
 	float: right;
 	}
 
@@ -379,7 +384,7 @@ ul.forms_popin.adulte2 li.last {
 	}
 
 	.lb-body {
-		max-height: 152px;
+		max-height: 300px;
 	}
 	#lb.lb-white .lb-body {
 		padding: 15px 15px 25px 15px;
@@ -401,11 +406,12 @@ ul.forms_popin.adulte2 li.last {
 		}
 
 	ul.forms_popin li input{
-		max-width: 100%	;
+		max-width: 80%	;
 	}
 
 	ul.forms_popin li{
-		margin-right: 2%;
+		margin-right: 4%;
+		max-width: 37%;
 	}
 
 	ul.forms_popin li.last{
@@ -438,7 +444,7 @@ ul.forms_popin.adulte2 li.last {
 	}
 
 	.lb-body {
-	max-height: 200px;
+	max-height: 300px;
 	padding: 
 	}
 	.input-bt-adulte {
